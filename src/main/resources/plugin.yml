@@ -1,0 +1,28 @@
+name: RektAntiCheat
+version: 1.0.0
+main: me.andreigamerytb.rektanticheat.AntiCheat
+authors: [ AndreiGamerYTB ]
+description: The anti cheat you always needed.
+depend: [ProtocolLib]
+softdepend: [ViaVersion]
+commands:
+  rektanticheat:
+    description: Main command for the AntiCheat.
+  alerts:
+    description: Toggles off and on alerts.
+  autoban:
+    description: Stops autobanning.
+  getlog:
+    description: Get a player's log.
+  jday:
+    description: judgementday commands (start|add player reason).
+permissions:
+  anticheat.admin:
+    default: op
+    description: to use the main command.
+  anticheat.staff:
+    default: op
+    description: to receive allerts.
+  anticheat.log:
+    description: Gives access to /getlog.
+    default: op
