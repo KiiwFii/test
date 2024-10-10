@@ -72,4 +72,11 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub KiiwFii Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/KiiwFii/test</url>
+   </repository>
+</distributionManagement>
 </project>
